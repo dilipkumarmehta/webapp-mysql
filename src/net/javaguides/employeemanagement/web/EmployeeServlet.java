@@ -23,7 +23,7 @@ public class EmployeeServlet extends HttpServlet {
 	public void init() {
 		employeeDao = new EmployeeDao();
 	}
-	//http://localhost:8085/HelloWorldJavaEE/employeeregister.jsp
+	//http://localhost:8085/employee/employeeregister.jsp
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
